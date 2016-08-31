@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LL.NET.DataTransportation.Core
+namespace LL.NET.DataTransportation.Core.Transports
 {
     /// <summary>
     /// Defines interface of a data transport object. All data transportation 

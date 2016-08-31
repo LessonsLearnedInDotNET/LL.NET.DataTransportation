@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LL.NET.DataTransportation.Core.Binary
+namespace LL.NET.DataTransportation.Core.Transports.Content.Binary
 {
     /// <summary>
     /// An event argument that holds an array of bytes

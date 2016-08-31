@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LL.NET.DataTransportation.Core.Binary
+namespace LL.NET.DataTransportation.Core.Transports.Content.Binary
 {
     /// <summary>
     /// Defines the interface of a data transport object that sends and 
