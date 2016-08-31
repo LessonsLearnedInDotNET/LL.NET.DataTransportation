@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Transports\Binary\ByteArrayEventArgs.cs" />
+    <Compile Include="Domain\Transports\Binary\IBinaryDataTransport.cs" />
     <Compile Include="Domain\Transports\IDataTransport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
