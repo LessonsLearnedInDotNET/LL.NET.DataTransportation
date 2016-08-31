@@ -39,9 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\Transports\Binary\ByteArrayEventArgs.cs" />
-    <Compile Include="Domain\Transports\Binary\IBinaryDataTransport.cs" />
-    <Compile Include="Domain\Transports\IDataTransport.cs" />
+    <Compile Include="Transports\Content\Binary\ByteArrayEventArgs.cs" />
+    <Compile Include="Transports\Content\Binary\IBinaryDataTransport.cs" />
+    <Compile Include="Transports\Content\Text\ITextDataTransport.cs" />
+    <Compile Include="Transports\Content\Text\StringEventArgs.cs" />
+    <Compile Include="Transports\IDataTransport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
