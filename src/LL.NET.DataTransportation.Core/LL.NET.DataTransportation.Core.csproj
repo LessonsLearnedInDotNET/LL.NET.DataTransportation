@@ -68,6 +68,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OSI\Application\IApplicationLayerProtocol.cs" />
+    <Compile Include="OSI\Application\IApplicationLayerDataUnit.cs" />
+    <Compile Include="OSI\DataLink\IDataLinkLayerFrame.cs" />
+    <Compile Include="OSI\DataLink\IDataLinkLayerProtocol.cs" />
+    <Compile Include="OSI\IOSIProtocol.cs" />
+    <Compile Include="OSI\IOSIProtocolDataUnit.cs" />
+    <Compile Include="OSI\Network\INetworkLayerPacket.cs" />
+    <Compile Include="OSI\Network\INetworkLayerProtocol.cs" />
+    <Compile Include="OSI\Physical\IPhysicalLayerDataUnit.cs" />
+    <Compile Include="OSI\Physical\IPhysicalLayerProtocol.cs" />
+    <Compile Include="OSI\Presentation\IPresentationLayerDataUnit.cs" />
+    <Compile Include="OSI\Presentation\IPresentationLayerProtocol.cs" />
+    <Compile Include="OSI\Session\ISessionLayerDataUnit.cs" />
+    <Compile Include="OSI\Session\ISessionLayerProtocol.cs" />
+    <Compile Include="OSI\Transport\ITransportLayerDataUnit.cs" />
+    <Compile Include="OSI\Transport\ITransportLayerProtocol.cs" />
     <Compile Include="Transports\Content\Binary\ByteArrayEventArgs.cs" />
     <Compile Include="Transports\Content\Binary\IBinaryDataTransport.cs" />
     <Compile Include="Transports\Content\Text\ITextDataTransport.cs" />
